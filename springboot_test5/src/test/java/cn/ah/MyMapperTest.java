@@ -27,6 +27,7 @@ public class MyMapperTest {
         List<User> users = userMapper.findAll();
         for(User u : users){
             System.out.println(u);
+            System.out.println("-----");
         }
     }
 }
